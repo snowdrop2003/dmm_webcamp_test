@@ -1,0 +1,118 @@
+header,
+nav,
+h2,
+.main-visual,
+footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
+.container-fluid {
+  max-width: 800px;
+}
+
+.blog-image {
+  height: 180px;
+}
+
+.main-visual {
+  width: 100%;
+  height: 300px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  width: 40%; /* 横幅40% */
+  height: 300px; /* 親の高さに揃える */
+  background-color: rgba(0, 0, 0, 0.5); /* 背景色を半透明の黒にする */
+  text-align: center; /* 文字を中央揃えにする */
+  padding-top: 105px; /* 上側の内側余白で垂直方向の位置を調整 */
+}
+
+.sidebar-contents {
+  padding: 50px 0;
+}
+
+.instagram .sidebar-contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.instagram-box {
+  width: 110px;
+  padding-top: 110px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.instagram-box:nth-child(odd) {
+  margin-right: 10px;
+}
+
+.instagram-box:nth-child(1) {
+  background-image: url(img/airport.jpg);
+}
+
+.instagram-box:nth-child(2) {
+  background-image: url(img/japan.jpg);
+}
+
+.instagram-box:nth-child(3) {
+  background-image: url(img/snow.jpg);
+}
+
+.instagram-box:nth-child(4) {
+  background-image: url(img/japan2.jpg);
+}
+
+.instagram-box:nth-child(5) {
+  background-image: url(img/lake.jpg);
+}
+
+.instagram-box:nth-child(6) {
+  background-image: url(img/road.jpg);
+}
+
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.blog-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.common-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
+}
